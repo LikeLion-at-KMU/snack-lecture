@@ -1,0 +1,73 @@
+#recent-lecture {
+    display: block;
+    float: right;
+    width:18%;
+}
+
+#recent-lecture .video-thumbnail {
+    margin-bottom: 1em;
+}
+#future-lecture {
+    display: block;
+    width: 80%;
+    margin: 0 0 2em 0 ;
+}
+
+#past-lecture {
+    width:80%;
+    display: block;
+}
+
+header {
+    border: 1px solid black;
+    margin-bottom: 2em;
+}
+
+header ul {
+    margin: 0px 0px 20px 0px;
+    list-style-type: none;
+}
+header li {
+    border: 1px solid black;
+    display: inline;
+    margin: 0px 10px 0px 0px;
+}
+
+section {
+    border: 1px solid black;
+}
+
+section.video-list {
+    width: 100%;
+}
+section.video-thumbnail-container {
+    width: 100%;
+}
+
+section.video-thumbnail {
+    display: inline-block;
+    width: 18%;
+    border: 1px solid black;
+}
+
+#recent-lecture section.video-thumbnail {
+    display: inline-block;
+    width: 95%;
+    border: 1px solid black;
+}
+
+.video-thumbnail-title {
+    margin: 2px 0px 0px 0px;
+}
+
+.video-thumbnail-date {
+    margin: 2px 0px 0px 0px;
+}
+
+img.thumbnail {
+    display: inline-block;
+    width:90%;
+    height: 100%;
+    border: 1px solid black;
+}
+
